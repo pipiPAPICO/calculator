@@ -19,6 +19,7 @@ void make_empty(Stack * stack)
 
 bool is_empty(Stack * stack)
 {
+	printf("Stack is empty.");
 	return stack->top == 0;
 }
 
