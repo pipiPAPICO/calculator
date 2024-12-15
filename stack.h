@@ -7,7 +7,7 @@ typedef struct stack {
 Item * contents;
 int top;
 int size;
-} Stack, Stack2;
+} Stack;
 
 Stack * create_stack(int initial_size);
 void make_empty(Stack *s);
